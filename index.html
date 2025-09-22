@@ -1,242 +1,393 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CONX</title>
-  <meta name="description" content="CONX: tienda de códigos fuente descargables con temáticas románticas (flores amarillas, ositos con corazones y más) para enviar a tu pareja." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="estilo.css" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💞</text></svg>">
-</head>
-<body>
-  <!-- Header -->
-  <header class="topbar">
-    <div class="wrap">
-      <a class="logo" href="#inicio" aria-label="CONX inicio">
-        <span class="logo-mark">💞</span>
-        <span class="logo-text">CONX</span>
-      </a>
-      <nav class="nav" aria-label="Principal">
-        <a href="#catalogo">Catálogo</a>
-        <a href="#como-funciona">Cómo funciona</a>
-        <a href="#contacto">Contacto</a>
-      </nav>
-      <a class="btn btn-primary hide-sm" href="#catalogo">Explorar códigos</a>
-    </div>
-  </header>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CONX</title>
+    <meta
+      name="description"
+      content="CONX: tienda de códigos fuente descargables con temáticas románticas (flores amarillas, ositos con corazones y más) para enviar a tu pareja."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="estilo.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💞</text></svg>"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="topbar">
+      <div class="wrap">
+        <a class="logo" href="#inicio" aria-label="CONX inicio">
+          <span class="logo-mark">💞</span>
+          <span class="logo-text">CONX</span>
+        </a>
+        <nav class="nav" aria-label="Principal">
+          <a href="#catalogo">Catálogo</a>
+          <a href="#como-funciona">Cómo funciona</a>
+          <a href="#contacto">Contacto</a>
+        </nav>
+        <a class="btn btn-primary hide-sm" href="#catalogo">Explorar códigos</a>
+      </div>
+    </header>
 
-  <!-- Hero -->
-  <section id="inicio" class="hero">
-    <div class="wrap hero-inner">
-      <div class="hero-copy">
-        <h1>Regala <span class="highlight">amor en código</span></h1>
-        <p class="lead">
-          En <strong>CONX</strong> vendemos <em>códigos fuente</em> listos para descargar con
-          temáticas románticas: <b>flores amarillas</b>, <b>ositos con corazones</b>, tarjetas animadas y más.
-          Sorprende a tu persona favorita con un detalle digital único.
+    <!-- Hero -->
+    <section id="inicio" class="hero">
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <h1>Regala <span class="highlight">amor en código</span></h1>
+          <p class="lead">
+            En <strong>CONX</strong> vendemos <em>códigos fuente</em> listos
+            para descargar con temáticas románticas: <b>flores amarillas</b>,
+            <b>ositos con corazones</b>, <b>Saturno </b>y más. Sorprende a tu
+            persona favorita con un detalle digital único.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#catalogo">Ver catálogo</a>
+            <a class="btn btn-ghost" href="#como-funciona">Cómo funciona</a>
+          </div>
+          <p class="small note">
+            Algo Bueno, Bonito, Barato. Descargas inmediatas.
+          </p>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="heart-bubble hb1"></div>
+          <div class="heart-bubble hb2"></div>
+          <div class="heart-bubble hb3"></div>
+          <div class="mockup-card">
+            <div class="mockup-header">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="mockup-body">
+              <h3>Flores Amarillas</h3>
+              <p>Animación CSS + JS • Lista para dedicar</p>
+              <div class="tags">
+                <span class="tag">HTML</span><span class="tag">CSS</span
+                ><span class="tag">JS</span>
+              </div>
+              <div class="preview">
+                <a href="img/Flores amarillas/Flores Amarillas.mp4"
+                  ><video
+                    src="img/Flores amarillas/Flores Amarillas.mp4"
+                    autoplay
+                    muted
+                    loop
+                  ></video
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Catalog -->
+    <section id="catalogo" class="section">
+      <div class="wrap">
+        <header class="section-head">
+          <h2>Catálogo destacado</h2>
+          <p>
+            Descarga, personaliza nombres y mensajes, y envíalo a tu pareja.
+          </p>
+        </header>
+
+        <div class="grid cards">
+          <!-- Card 1 -->
+          <article class="card">
+            <div class="card-media media-flowers" aria-hidden="true">
+              <video
+                src="img/Flores amarillas/Flores Amarillas.mp4"
+                autoplay
+                muted
+                loop
+              ></video>
+            </div>
+            <div class="card-body">
+              <h3>Flores Amarillas Animadas</h3>
+              <p>
+                Un bouquet digital con pétalos en movimiento y mensaje
+                [editable].
+              </p>
+              <div class="meta">
+                <span>HTML</span><span>CSS</span><span>JS</span>
+              </div>
+              <div class="actions">
+                <a
+                  class="btn btn-primary"
+                  href="https://wa.me/51996920335?text=Hola%20CONX%2C%20quiero%20comprar%20%22Flores%20Amarillas%20Animadas%22.%20Mi%20nombre%20es%3A%20"
+                  target="_blank"
+                  rel="noopener"
+                  >Comprar</a
+                >
+                <a
+                  class="btn btn-ghost"
+                  href="img/Flores amarillas/Flores Amarillas.mp4"
+                  >Ver demo</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="card">
+            <div class="card-media media-bear" aria-hidden="true">
+              <video
+                src="img/Osito de corazones/Osito de corazones.mp4"
+                autoplay
+                muted
+                loop
+              ></video>
+            </div>
+            <div class="card-body">
+              <h3>Osito con Corazones</h3>
+              <p>
+                Ilustración animada con lluvia de corazones y dedicatoria
+                [editable].
+              </p>
+              <div class="meta">
+                <span>HTML</span><span>CSS</span><span>SVG</span>
+              </div>
+              <div class="actions">
+                <a
+                  class="btn btn-primary"
+                  href="https://wa.me/51996920335?text=Hola%20CONX%2C%20quiero%20comprar%20%22Osito%20con%20Corazones%22.%20Mi%20nombre%20es%3A%20"
+                  target="_blank"
+                  rel="noopener"
+                  >Comprar</a
+                >
+                <a
+                  class="btn btn-ghost"
+                  href="img/Osito de corazones/Osito de corazones.mp4"
+                  >Ver demo</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="card">
+            <div class="card-media media-card" aria-hidden="true">
+              <video src="img/Saturno/Saturno.mp4" autoplay muted loop></video>
+            </div>
+            <div class="card-body">
+              <h3>Saturno Amor 360 🪐</h3>
+              <p>
+                Universo interactivo con Saturno y frases neón que flotan a tu
+                alrededor.
+              </p>
+              <div class="meta">
+                <span>HTML</span><span>CSS</span><span>JS</span>
+              </div>
+              <div class="actions">
+                <a
+                  class="btn btn-primary"
+                  href="https://wa.me/51996920335?text=Hola%20CONX%2C%20quiero%20comprar%20%22Saturno%20Amor%20360%22.%20Mi%20nombre%20es%3A%20"
+                  target="_blank"
+                  rel="noopener"
+                  >Comprar</a
+                >
+                <a class="btn btn-ghost" href="img/Saturno/Saturno.mp4"
+                  >Ver demo</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="card">
+            <div class="card-media media-neon" aria-hidden="true"></div>
+            <div class="card-body">
+              <h3>Neón con Nombres</h3>
+              <p>
+                Texto neón editable con efecto brillo para nombres y fechas.
+              </p>
+              <div class="meta"><span>HTML</span><span>CSS</span></div>
+              <div class="actions">
+                <a
+                  class="btn btn-primary"
+                  href="https://wa.me/51996920335?text=Hola%20CONX%2C%20quiero%20comprar%20%22Ne%C3%B3n%20con%20Nombres%22.%20Mi%20nombre%20es%3A%20"
+                  target="_blank"
+                  rel="noopener"
+                  >Comprar</a
+                >
+                <a class="btn btn-ghost" href="#">Ver demo</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="center mt-24">
+          <br />
+          <a class="btn btn-secondary" href="#contacto"
+            >¿Buscas algo a medida? Escríbenos</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section id="como-funciona" class="section contrast">
+      <div class="wrap">
+        <header class="section-head">
+          <h2>¿Cómo funciona?</h2>
+          <p>Es súper simple, incluso si no sabes programar.</p>
+        </header>
+        <ol class="steps">
+          <li>
+            <div class="step-num">1</div>
+            <div>
+              <h3>Elige un código</h3>
+              <p>Explora el catálogo y selecciona tu diseño favorito.</p>
+            </div>
+          </li>
+          <li>
+            <div class="step-num">2</div>
+            <div>
+              <h3>Descarga y personaliza</h3>
+              <p>
+                Edita el nombre y el mensaje dentro del archivo
+                <code>config.js</code> o directamente en el HTML.
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="step-num">3</div>
+            <div>
+              <h3>Envía tu detalle</h3>
+              <p>
+                Compártelo por WhatsApp, Telegram, correo o súbelo a tu hosting.
+              </p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contacto" class="section">
+      <div class="wrap">
+        <header class="section-head">
+          <h2>Contáctanos</h2>
+          <p>¿Consultas, colaboraciones o pedidos a medida? ¡Hablemos!</p>
+        </header>
+        <form class="contact-form" id="form-contacto">
+          <div class="field">
+            <label for="nombre">Nombre</label>
+            <input
+              id="nombre"
+              name="nombre"
+              type="text"
+              placeholder="Tu nombre"
+              required
+            />
+          </div>
+
+          <div class="field">
+            <label for="email">Correo</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="tucorreo@ejemplo.com"
+              required
+            />
+          </div>
+
+          <div class="field">
+            <label for="mensaje">Mensaje</label>
+            <textarea
+              id="mensaje"
+              name="mensaje"
+              rows="4"
+              placeholder="Cuéntanos tu idea"
+            ></textarea>
+          </div>
+
+          <div class="actions" style="display: flex; gap: 8px; flex-wrap: wrap">
+            <button class="btn btn-primary" type="button" id="btn-whatsapp">
+              Enviar por WhatsApp
+            </button>
+          </div>
+
+          <p class="small center muted mt-12">
+            También puedes escribirnos por WhatsApp al
+            <a href="https://wa.me/51996920335" target="_blank" rel="noopener"
+              >+51 996 920 335</a
+            >.
+          </p>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="wrap footer-inner">
+        <div class="brand">
+          <span class="logo-mark">💞</span>
+          <span class="logo-text">CONX</span>
+        </div>
+        <p class="muted">
+          Códigos fuente románticos • Hecho con cariño en Perú.
         </p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="#catalogo">Ver catálogo</a>
-          <a class="btn btn-ghost" href="#como-funciona">Cómo funciona</a>
-        </div>
-        <p class="small note">Algo Bueno, Bonito, Barato. Descargas inmediatas.</p>
-      </div>
-      <div class="hero-art" aria-hidden="true">
-        <div class="heart-bubble hb1"></div>
-        <div class="heart-bubble hb2"></div>
-        <div class="heart-bubble hb3"></div>
-        <div class="mockup-card">
-          <div class="mockup-header">
-            <span></span><span></span><span></span>
-          </div>
-          <div class="mockup-body">
-            <h3>Flores Amarillas</h3>
-            <p>Animación CSS + JS • Lista para dedicar</p>
-            <div class="tags">
-              <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span>
-            </div>
-            <div class="preview">
-                <a href="img/Flores amarillas/Flores Amarillas.mp4"><video src="img/Flores amarillas/Flores Amarillas.mp4" autoplay muted loop></video></a></div>
-          </div>
+        <div class="social">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="TikTok">TikTok</a>
+          <a href="#" aria-label="Facebook">Facebook</a>
         </div>
       </div>
-    </div>
-  </section>
+    </footer>
 
-  <!-- Catalog -->
-  <section id="catalogo" class="section">
-    <div class="wrap">
-      <header class="section-head">
-        <h2>Catálogo destacado</h2>
-        <p>Descarga, personaliza nombres y mensajes, y envíalo a tu pareja.</p>
-      </header>
-
-      <div class="grid cards">
-        <!-- Card 1 -->
-        <article class="card">
-          <div class="card-media media-flowers" aria-hidden="true">
-          <video src="img/Flores amarillas/Flores Amarillas.mp4" autoplay muted loop></video></div>
-          <div class="card-body">
-            <h3>Flores Amarillas Animadas</h3>
-            <p>Un bouquet digital con pétalos en movimiento y mensaje [editable].</p>
-            <div class="meta">
-              <span>HTML</span><span>CSS</span><span>JS</span>
-            </div>
-            <div class="actions">
-              <a class="btn btn-primary" href="https://wa.me/51996920335" target="_blank" rel="noopener">Comprar</a>
-              <a class="btn btn-ghost" href="img/Flores amarillas/Flores Amarillas.mp4">Ver demo</a>
-            </div>
-          </div>
-        </article>
-
-        <!-- Card 2 -->
-        <article class="card">
-          <div class="card-media media-bear" aria-hidden="true">
-            <video src="img/Osito de corazones/Osito de corazones.mp4" autoplay muted loop></video></div>
-          <div class="card-body">
-            <h3>Osito con Corazones</h3>
-            <p>Ilustración animada con lluvia de corazones y dedicatoria [editable].</p>
-            <div class="meta">
-              <span>HTML</span><span>CSS</span><span>SVG</span>
-            </div>
-            <div class="actions">
-              <a class="btn btn-primary" href="https://wa.me/51996920335" target="_blank" rel="noopener">Comprar</a>
-              <a class="btn btn-ghost" href="img/Osito de corazones/Osito de corazones.mp4">Ver demo</a>
-            </div>
-          </div>
-        </article>
-
-        <!-- Card 3 -->
-        <article class="card">
-          <div class="card-media media-card" aria-hidden="true">
-            <video src="img/Saturno/Saturno.mp4" autoplay muted loop></video>
-          </div>
-          <div class="card-body">
-            <h3>Saturno Amor 360 🪐</h3>
-            <p>Universo interactivo con Saturno y frases neón que flotan a tu alrededor.</p>
-            <div class="meta">
-              <span>HTML</span><span>CSS</span><span>JS</span>
-            </div>
-            <div class="actions">
-              <a class="btn btn-primary" href="https://wa.me/51996920335" target="_blank" rel="noopener">Comprar</a>
-              <a class="btn btn-ghost" href="img/Saturno/Saturno.mp4">Ver demo</a>
-            </div>
-          </div>
-        </article>
-
-        <!-- Card 4 -->
-        <article class="card">
-          <div class="card-media media-neon" aria-hidden="true"></div>
-          <div class="card-body">
-            <h3>Neón con Nombres</h3>
-            <p>Texto neón editable con efecto brillo para nombres y fechas.</p>
-            <div class="meta">
-              <span>HTML</span><span>CSS</span>
-            </div>
-            <div class="actions">
-              <a class="btn btn-primary" href="https://wa.me/51996920335" target="_blank" rel="noopener">Comprar</a>
-              <a class="btn btn-ghost" href="#">Ver demo</a>
-            </div>
-          </div>
-        </article>
-      </div>
-
-      <div class="center mt-24"><br>
-        <a class="btn btn-secondary" href="#contacto">¿Buscas algo a medida? Escríbenos</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- How it works -->
-  <section id="como-funciona" class="section contrast">
-    <div class="wrap">
-      <header class="section-head">
-        <h2>¿Cómo funciona?</h2>
-        <p>Es súper simple, incluso si no sabes programar.</p>
-      </header>
-      <ol class="steps">
-        <li>
-          <div class="step-num">1</div>
-          <div>
-            <h3>Elige un código</h3>
-            <p>Explora el catálogo y selecciona tu diseño favorito.</p>
-          </div>
-        </li>
-        <li>
-          <div class="step-num">2</div>
-          <div>
-            <h3>Descarga y personaliza</h3>
-            <p>Edita el nombre y el mensaje dentro del archivo <code>config.js</code> o directamente en el HTML.</p>
-          </div>
-        </li>
-        <li>
-          <div class="step-num">3</div>
-          <div>
-            <h3>Envía tu detalle</h3>
-            <p>Compártelo por WhatsApp, Telegram, correo o súbelo a tu hosting.</p>
-          </div>
-        </li>
-      </ol>
-    </div>
-  </section>
-
-  <!-- Contact -->
-  <section id="contacto" class="section">
-    <div class="wrap">
-      <header class="section-head">
-        <h2>Contáctanos</h2>
-        <p>¿Consultas, colaboraciones o pedidos a medida? ¡Hablemos!</p>
-      </header>
-      <form class="contact-form" action="#" method="post">
-        <div class="field">
-          <label for="nombre">Nombre</label>
-          <input id="nombre" name="nombre" type="text" placeholder="Tu nombre" required>
-        </div>
-        <div class="field">
-          <label for="email">Correo</label>
-          <input id="email" name="email" type="email" placeholder="tucorreo@ejemplo.com" required>
-        </div>
-        <div class="field">
-          <label for="mensaje">Mensaje</label>
-          <textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntanos tu idea"></textarea>
-        </div>
-        <button class="btn btn-primary" type="submit">Enviar mensaje</button>
-        <p class="small center muted mt-12">También puedes escribirnos por WhatsApp al <a href="https://wa.me/51996920335" target="_blank" rel="noopener">+51 996 920 335</a>.</p>
-      </form>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="wrap footer-inner">
-      <div class="brand">
-        <span class="logo-mark">💞</span>
-        <span class="logo-text">CONX</span>
-      </div>
-      <p class="muted">Códigos fuente románticos • Hecho con cariño en Perú.</p>
-      <div class="social">
-        <a href="#" aria-label="Instagram">Instagram</a>
-        <a href="#" aria-label="TikTok">TikTok</a>
-        <a href="#" aria-label="Facebook">Facebook</a>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Optional: smooth scroll -->
-  <script>
-    document.querySelectorAll('a[href^="#"]').forEach(a => {
-      a.addEventListener('click', e => {
-        const id = a.getAttribute('href').slice(1);
-        const el = document.getElementById(id);
-        if (el) {
-          e.preventDefault();
-          el.scrollIntoView({ behavior: 'smooth' });
-        }
+    <!-- Optional: smooth scroll -->
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach((a) => {
+        a.addEventListener("click", (e) => {
+          const id = a.getAttribute("href").slice(1);
+          const el = document.getElementById(id);
+          if (el) {
+            e.preventDefault();
+            el.scrollIntoView({ behavior: "smooth" });
+          }
+        });
       });
-    });
-  </script>
-</body>
+    </script>
+    <script>
+      (function () {
+        const $ = (s) => document.querySelector(s);
+        const nombre = () => $("#nombre").value.trim();
+        const correo = () => $("#email").value.trim();
+        const msj = () => $("#mensaje").value.trim();
+
+        // Solo WhatsApp:
+        const WHATSAPP_NUM = "51996920335"; // Tu número (sin + ni espacios)
+
+        function validar() {
+          if (!nombre()) {
+            alert("Por favor, escribe tu nombre.");
+            return false;
+          }
+          return true;
+        }
+
+        function textoParaWhatsApp() {
+          // Incluye el correo solo si lo escriben
+          const lineaCorreo = correo() ? `\nCorreo: ${correo()}` : "";
+          const texto = `Hola CONX, soy ${nombre()}.${lineaCorreo}
+Mensaje: ${msj() || "(sin mensaje)"}`;
+          return encodeURIComponent(texto);
+        }
+
+        $("#btn-whatsapp").addEventListener("click", () => {
+          if (!validar()) return;
+          const url = `https://wa.me/${WHATSAPP_NUM}?text=${textoParaWhatsApp()}`;
+          window.open(url, "_blank");
+        });
+      })();
+    </script>
+  </body>
 </html>
